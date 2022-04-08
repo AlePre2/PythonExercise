@@ -8,10 +8,10 @@ class Circle:
         def get_area(self) -> float:
             return (math.pi * (self.radius ** 2))
 
-    def __Diameter__(self.radius):
+    def __Diameter__(self):
         return self.radius * 2
 
-    def __add(self, radius, diameter):
+    def __add__(self):
         return self.radius + self.radius
 
     def __eq__(self, other):
